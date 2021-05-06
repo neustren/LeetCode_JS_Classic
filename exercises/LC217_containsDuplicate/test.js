@@ -8,3 +8,7 @@ test("returns true for Arrays with duplicate values", () => {
 test("returns false for Arrays with NO duplicate values", () => {
   expect(containsDuplicate([1, 2, 3, 4])).toEqual(false);
 });
+
+test("returns true for Arrays with NO duplicate values", () => {
+  expect(containsDuplicate([1, 1, 2, 3, 4])).toBeTruthy();
+});
